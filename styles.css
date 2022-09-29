@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+body {
+    background-color: #15133C;
+    font-family: 'Asap Condensed', sans-serif;
+    color: #F9F9F9;
+}
+
+.programador {
+    width: 600px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 0.3px;
+    
+}
+
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 175px;
+}
+
+.titulo {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+span {
+    color: #9254C8;
+
+}
+
+.texto {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+a {
+    color: #F9F9F9;
+}
+
+a:hover {
+    color: #9254C8;
+    transition: 0.3s all;
+}
